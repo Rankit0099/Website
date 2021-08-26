@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+}
+
+hr{
+  text-align: center !important;
+  border-color: yellow;
+  border-style: solid none none none;
+  border-width: 5px;
+  width: 5%;
+}
+
+ul{
+  list-style-type:none;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  border-top: 5px solid orangered;
+  padding: 5px;
+  position: fixed;
+  background-color: #FFDEDE ;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: orange !important;
+}
+
+.nav-link {
+  color: #B61919 !important;
+  font-size: 1.2rem;
+  padding: 0 18px !important;
+}
+
+.image{
+  position: relative;
+}
+
+.image .overlay {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  right: 5px;
+  text-align: right;
+  font-size: 30px;
+}
+
+.overlay h1{
+  color: orange;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.overlay h3{
+  color: white;
+}
+
+.overlay button{
+  color: white;
+  background-color: orangered;
+}
+
+.services-section{
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.services-section h1{
+  color: orangered;
+}
+
+.services{
+  padding: 20px;
+  margin: 10px;
+}
+
+.about-para{
+  text-align: center;
+}
+.about-us{
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.about-us h1{
+  color: orangered;
+  font-weight: bold;
+}
+
+.about-image{
+  margin-right: 30px;
+  width: 80%;
+}
+
+.clients{
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.clients h1{
+  color: orangered;
+  font-weight: bold;
+}
+
+.clients img{
+  width: 10%;
+}
+
+.portfolio{
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  background-color: #FF2626;
+  color: white;
+}
+
+.portfolio h1{
+  color: white;
+  font-weight: bold;
+}
+
+.portfolio img{
+  display: flex;
+  width: 20%;
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.testimonials{
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.testimonials  h1{
+  color: orangered;
+  font-weight: bold;
+}
+
+.name-card{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.pricing-table{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.pricing-table  h1{
+  color: orangered;
+  font-weight: bold;
+}
+
+.buy{
+  background-color: orangered !important;
+}
+
+.get-our-service{
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #FF2626;
+  color: white;
+}
+
+.get-our-service .first{
+  text-align: left;
+}
+
+.get-our-service .second{
+  text-align: center;
+}
+
+.get-our-service h1{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.our-team{
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.our-team h1{
+  color: orangered;
+  font-weight: bold;
+}
+
+.contact-us{
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.contact-us .first{
+  text-align: left;
+}
+
+.contact-us .para{
+  text-align: center;
+}
+
+.contact-us h1{
+  color: orangered;
+  font-weight: bold;
+}
